@@ -35,61 +35,98 @@ The primary end users of this database are the customers who will be using it fo
 
 Potential Entities and Attributes 
 
-CUSTOMER 
-Customer ID (PK) 
+1. CUSTOMER
+
+Customer ID (PK)
+
 Customer First name 
+	
 Customer Last Name 
+ 
 Address 
+ 
 Email id  
+ 
 Phone number 
+ 
 Customer city 
+ 
 Zip code 
 
  
-SUPPLIER 
+2. SUPPLIER 
+
 Supplier ID (PK) 
+
 Supplier Name 
+
 Address 
+
 City 
+
 Zip code 
+
 Email 
+
 Phone number 
 
  
-ORDERS 
+3. ORDERS 
+
 Order ID (PK) 
+
 Customer ID (FK) 
+
 Shipping address 
+
 Amount 
+
 Status 
 
  
-PRODUCTS 
+4. PRODUCTS 
+
 Product ID (PK) 
+
 Product name 
+
 Category 
+
 Cost 
+
 Supplier ID (FK) 
 
  
-RATING 
+5. RATING 
+
 Rating_ID (PK) 
+
 Customer ID (FK) 
+
 Product Rating 
+
 Product Category 
 
  
-SHIPPING ADDRESS 
+6. SHIPPING ADDRESS 
+
 Shipping ID (PK) 
+
 Customer ID (FK) 
+
 City 
+
 Zip code 
 
 
-WAREHOUSES 
+7. WAREHOUSES 
+
 Warehouse ID (PK) 
+
 Product ID (FK) 
+
 Available quantity 
+
 City 
 
  
