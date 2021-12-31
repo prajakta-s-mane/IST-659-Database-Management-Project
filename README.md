@@ -50,8 +50,10 @@ Email id
 Phone number 
  
 Customer city 
- 
+
 Zip code 
+
+
 
  
  
