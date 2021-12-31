@@ -54,6 +54,8 @@ Customer city
 Zip code 
 
  
+ 
+ 
 2. SUPPLIER 
 
 Supplier ID (PK) 
@@ -70,6 +72,8 @@ Email
 
 Phone number 
 
+
+
  
 3. ORDERS 
 
@@ -82,6 +86,8 @@ Shipping address
 Amount 
 
 Status 
+
+
 
  
 4. PRODUCTS 
@@ -96,7 +102,9 @@ Cost
 
 Supplier ID (FK) 
 
- 
+
+
+
 5. RATING 
 
 Rating_ID (PK) 
@@ -106,6 +114,8 @@ Customer ID (FK)
 Product Rating 
 
 Product Category 
+
+
 
  
 6. SHIPPING ADDRESS 
@@ -117,6 +127,8 @@ Customer ID (FK)
 City 
 
 Zip code 
+
+
 
 
 7. WAREHOUSES 
